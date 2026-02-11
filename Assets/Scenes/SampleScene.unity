@@ -568,7 +568,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -103.077896, y: -3.9765847}
+  m_ConnectedAnchor: {x: -0.25801998, y: 1.6624134}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -2464,6 +2464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 574852805}
+  - component: {fileID: 574852806}
   m_Layer: 6
   m_Name: Guy
   m_TagString: Untagged
@@ -2487,6 +2488,36 @@ Transform:
   - {fileID: 418655731}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.783}
+--- !u!114 &574852806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574852804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20ed51a6c011564183cb61902f56a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnCrash:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1671047012}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  BodyRetainers:
+  - {fileID: 161335638}
+  - {fileID: 1610879893}
 --- !u!1 &617059491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5343,6 +5374,7 @@ GameObject:
   - component: {fileID: 1258404734}
   - component: {fileID: 1258404736}
   - component: {fileID: 1258404735}
+  - component: {fileID: 1258404737}
   m_Layer: 6
   m_Name: helmet_0
   m_TagString: Untagged
@@ -5555,6 +5587,37 @@ FixedJoint2D:
   m_ConnectedAnchor: {x: 0.4199589, y: 0.6639232}
   m_DampingRatio: 0
   m_Frequency: 0
+--- !u!114 &1258404737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258404728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e6435f492478d41823013993deadde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEmptyBlow:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStrongBlow:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 574852806}
+        m_TargetAssemblyTypeName: Rider, Assembly-CSharp
+        m_MethodName: Crash
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  hightImpactPower: 1
 --- !u!1 &1268585602
 GameObject:
   m_ObjectHideFlags: 0
@@ -7601,7 +7664,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -103.74943, y: -6.5659957}
+  m_ConnectedAnchor: {x: -0.92955244, y: -0.9269978}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -8032,7 +8095,7 @@ SpringJoint2D:
   m_Anchor: {x: -1.42, y: 0.4}
   m_ConnectedAnchor: {x: -1.55, y: -0.15}
   m_AutoConfigureDistance: 1
-  m_Distance: 0.9365384
+  m_Distance: 0.9365376
   m_DampingRatio: 0
   m_Frequency: 10
 --- !u!233 &1811446340
@@ -8051,7 +8114,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.24, y: 0}
-  m_ConnectedAnchor: {x: -0.86372244, y: -1.4245421}
+  m_ConnectedAnchor: {x: -0.8637186, y: -1.424542}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -9453,11 +9516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: bde14a8aaf1d5214eae7170a1edc13f5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.93
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: bde14a8aaf1d5214eae7170a1edc13f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 36
+      value: 35.06
       objectReference: {fileID: 0}
     - target: {fileID: 8742538545776668643, guid: bde14a8aaf1d5214eae7170a1edc13f5, type: 3}
       propertyPath: m_LocalPosition.z
