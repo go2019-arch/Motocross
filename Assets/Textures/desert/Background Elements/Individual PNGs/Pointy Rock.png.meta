@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pointy Rock_0: 3579466566994152979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

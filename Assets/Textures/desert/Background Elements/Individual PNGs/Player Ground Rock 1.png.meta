@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Player Ground Rock 1_0: 3062158502144832726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

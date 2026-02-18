@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stuck Jewel_0: -2005476563146228296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

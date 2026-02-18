@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fountain Grass_3_0: -8188061764053837745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

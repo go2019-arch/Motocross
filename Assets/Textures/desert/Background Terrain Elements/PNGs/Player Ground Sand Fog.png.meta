@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Player Ground Sand Fog_0: -3978833429389679711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

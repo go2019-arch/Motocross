@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dried Bush_0: 632879410264672858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert Flower_0: -371437352621314960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
